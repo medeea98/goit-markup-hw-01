@@ -1,0 +1,121 @@
+:root {
+    --main-black: #212121;
+    --main-grey: #757575;
+    --background-grey: #2F303A;
+    --main-blue:#2196F3;
+    --background-wheat: #F5F4FA;
+}
+body {
+    font-family: Roboto, sans-serif;
+    color:var(--main-black)
+}
+ a { text-decoration: none;
+color: var(--main-black);}
+
+ul { list-style-type: none;}
+
+.global-header {
+    text-align: left;
+}
+
+.logo-header {
+font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.193;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.blue-text {
+    color: var(--main-blue);
+}
+.black-text {
+    color:black;
+}
+.nav-bar {
+    
+}
+
+.current {
+    color: var(--main-blue);
+}
+.contact-info {
+    color: var(--main-grey);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.17;
+        letter-spacing: 0.28px;
+        
+}
+
+.first-section {
+    background-color: var(--background-grey);
+}
+.first-section-text {
+    color: white;
+    text-align: center;
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 1.36;
+        /* 136.364% */
+        letter-spacing: 2.64px;
+        text-transform: uppercase;
+}
+.first-section-button {
+    color: white;
+    font-size: 16px;
+    line-height: 1.87;
+    background-color: var(--main-blue);
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px
+}
+.text-section{
+    background-color: white;
+}
+.subtitle {
+    color: var(--main-black);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+.text {
+    color: var(--main-grey);   
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.42px;
+}
+.what-we-do-section {
+    background-color: white;
+}
+.what-we-do-title {
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px
+}
+.our-team-section { 
+    background-color: var(--background-wheat);
+}
+.our-team-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px
+}
+.member-box {
+    border-radius: 0px 0px 4px 4px;
+background: #FFF;
+
+/* material shadow v1 */
+box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}

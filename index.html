@@ -4,56 +4,72 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="#" target="_blank" title="logo">WebStudio</a>
+    <header class="global-header">
+      <a class="logo-header" href="#" target="_blank" title="logo"
+        ><span class="blue-text">Web</span
+        ><span class="black-text">Studio</span></a
+      >
       <!-- Navigation bar -->
-      <nav>
+      <nav class="nav-bar">
         <ul>
-          <li><a href="#">Studio</a></li>
+          <li><a href="#" class="current">Studio</a></li>
           <li><a href="portofolio.html">Portofolio</a></li>
           <li><a href="#">Contacts</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+12127724150">+1 212-772-4150</a>
+      <a class="contact-info" href="mailto:info@devstudio.com"
+        >info@devstudio.com</a
+      >
+      <a class="contact-info" href="tel:+12127724150">+1 212-772-4150</a>
     </header>
     <!-- First section -->
     <main>
-      <section>
+      <section class="first-section">
         <div>
-          <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-          <button type="button">Request our service</button>
+          <h1 class="first-section-text">
+            EFFECTIVE SOLUTIONS FOR YOUR BUSINESS
+          </h1>
+          <button class="first-section-button" type="button">
+            Request our service
+          </button>
         </div>
       </section>
       <!-- Text section-->
-      <section>
+      <section class="text-section">
         <ul>
           <li>
-            <h4>ATTENTION TO DETAILS</h4>
-            <p>
+            <h4 class="subtitle">ATTENTION TO DETAILS</h4>
+            <p class="text">
               We go into all the details and processes of your business to
               develop a customized solution.
             </p>
           </li>
           <li>
-            <h4>PUNCTUALITY</h4>
-            <p>
+            <h4 class="subtitle">PUNCTUALITY</h4>
+            <p class="text">
               With us, you can feel safe and secure. An important principle of
               the company: respect your time and deadlines.
             </p>
           </li>
           <li>
-            <h4>PLANNING</h4>
-            <p>
+            <h4 class="subtitle">PLANNING</h4>
+            <p class="text">
               You will be able to observe and participate in every phase of
               solution development and implementation.
             </p>
           </li>
           <li>
-            <h4>MODERN TECHNOLOGIES</h4>
-            <p>
+            <h4 class="subtitle">MODERN TECHNOLOGIES</h4>
+            <p class="text">
               We use innovative tools to solve assigned tasks. It's time to
               simplify work processes.
             </p>
@@ -61,14 +77,14 @@
         </ul>
       </section>
       <!-- What we do section -->
-      <section>
-        <h2>What we do</h2>
+      <section class="what-we-do-section">
+        <h2 class="what-we-do-title">What we do</h2>
         <ul>
           <li>
             <img
               src="images/img1.jpg"
               alt="Person using a keyboard"
-              width="200"
+              width="370"
             />
           </li>
 
@@ -76,7 +92,7 @@
             <img
               src="images/img2.jpg"
               alt="Person using a smartphone"
-              width="200"
+              width="370"
             />
           </li>
 
@@ -84,21 +100,21 @@
             <img
               src="images/img3.jpg"
               alt="Person reviewing Color Hex"
-              width="200"
+              width="370"
             />
           </li>
         </ul>
       </section>
 
       <!-- Our Team section -->
-      <section>
-        <h2>Our Team</h2>
+      <section class="our-team-section">
+        <h2 class="our-team-title">Our Team</h2>
         <ul>
-          <li>
+          <li class="member-box">
             <img
               src="images/img4.jpg"
               alt="Picture with Christopher Walker"
-              width="200"
+              width="270"
             />
             <h4>Christopher Walker</h4>
             <p>Product Designer</p>
@@ -107,7 +123,7 @@
             <img
               src="images/img5.jpg"
               alt="Picture with Kylie Evans"
-              width="200"
+              width="270"
             />
             <h4>Kylie Evans</h4>
             <p>Frontend Developer</p>
@@ -116,7 +132,7 @@
             <img
               src="images/img6.jpg"
               alt="Picture with Ryan Harris"
-              width="200"
+              width="270"
             />
             <h4>Ryan Harris</h4>
             <p>Marketing</p>
@@ -125,7 +141,7 @@
             <img
               src="images/img7.jpg"
               alt="Picture with Tyler Moore"
-              width="200"
+              width="270"
             />
             <h4>Tyler Moore</h4>
             <p>UI Designer</p>
@@ -134,7 +150,7 @@
       </section>
     </main>
     <footer>
-      <a href="#" target="_blank" title="logo">WebStudio</a>
+      <a class="logo-footer" href="#" target="_blank" title="logo">WebStudio</a>
       <address>
         695 Park Ave, NY 10065, USA <br />
         <p><a href="mailto:info@devstudio.com">info@devstudio.com</a></p>
