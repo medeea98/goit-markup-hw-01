@@ -34,13 +34,21 @@
     <main>
       <!-- Filter section -->
       <section>
-        <div class="filter-buttons">
-          <ul>
-            <li><button type="button">All</button></li>
-            <li><button type="button">Web-sites</button></li>
-            <li><button type="button">Apps</button></li>
-            <li><button type="button">Design</button></li>
-            <li><button type="button">Marketing</button></li>
+        <div>
+          <ul class="filter-buttons">
+            <li>
+              <button class="current-button" type="button">All</button>
+            </li>
+            <li>
+              <button class="regular-button" type="button">Web-sites</button>
+            </li>
+            <li><button class="regular-button" type="button">Apps</button></li>
+            <li>
+              <button class="regular-button" type="button">Design</button>
+            </li>
+            <li>
+              <button class="regular-button" type="button">Marketing</button>
+            </li>
           </ul>
         </div>
         <!-- Results -->
@@ -48,8 +56,8 @@
           <ul>
             <li>
               <img src="./images/port1.jpg" alt="Web-site" width="370" />
-              <h4>Technoduck</h4>
-              <p>Web-site</p>
+              <h4 class="project">Technoduck</h4>
+              <p class="type">Web-site</p>
             </li>
             <li>
               <img
@@ -57,8 +65,8 @@
                 alt="Poster New Orlean vs Golden Star"
                 width="370"
               />
-              <h4>Poster New Orlean vs Golden Star</h4>
-              <p>Design</p>
+              <h4 class="project">Poster New Orlean vs Golden Star</h4>
+              <p class="type">Design</p>
             </li>
             <li>
               <img
@@ -66,18 +74,18 @@
                 alt="Seafood Restaurant "
                 width="370"
               />
-              <h4>Seafood Restaurant</h4>
-              <p>Apps</p>
+              <h4 class="project">Seafood Restaurant</h4>
+              <p class="type">Apps</p>
             </li>
             <li>
               <img src="./images/port4.jpg" alt="Project Prime" width="370" />
-              <h4>Project Prime</h4>
-              <p>Marketing</p>
+              <h4 class="project">Project Prime</h4>
+              <p class="type">Marketing</p>
             </li>
             <li>
               <img src="./images/port5.jpg" alt="Project Boxes" width="370" />
-              <h4>Project Boxes</h4>
-              <p>Apps</p>
+              <h4 class="project">Project Boxes</h4>
+              <p>class="type"Apps</p>
             </li>
             <li>
               <img
@@ -85,18 +93,18 @@
                 alt="Inspiration has no Borders"
                 width="370"
               />
-              <h4>Inspiration has no Borders</h4>
-              <p>Web-site</p>
+              <h4 class="project">Inspiration has no Borders</h4>
+              <p class="type">Web-site</p>
             </li>
             <li>
               <img src="./images/port7.jpg" alt="Limited Edition" width="370" />
-              <h4>Limited Edition</h4>
-              <p>Design</p>
+              <h4 class="project">Limited Edition</h4>
+              <p class="type">Design</p>
             </li>
             <li>
               <img src="./images/port8.jpg" alt="Project LAB" width="370" />
-              <h4>Project LAB</h4>
-              <p>Marketing</p>
+              <h4 class="project">Project LAB</h4>
+              <p class="type">Marketing</p>
             </li>
             <li>
               <img
@@ -104,20 +112,31 @@
                 alt="Growing Business"
                 width="370"
               />
-              <h4>Growing Business</h4>
-              <p>Apps</p>
+              <h4 class="project">Growing Business</h4>
+              <p class="type">Apps</p>
             </li>
           </ul>
         </div>
       </section>
     </main>
 
-    <footer>
-      <a class="logo-footer" href="#" target="_blank" title="logo">WebStudio</a>
-      <address>
+    <footer class="global-footer">
+      <a class="logo-footer" href="#" target="_blank" title="logo"
+        ><span class="blue-text">Web</span
+        ><span class="white-text">Studio</span></a
+      >
+      <address class="address">
         695 Park Ave, NY 10065, USA <br />
-        <p><a href="mailto:info@devstudio.com">info@devstudio.com</a></p>
-        <p><a href="tel:+12127724150">+1 212-772-4150</a></p>
+        <p>
+          <a class="contact-info-footer" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </p>
+        <p>
+          <a class="contact-info-footer" href="tel:+12127724150"
+            >+1 212-772-4150</a
+          >
+        </p>
       </address>
     </footer>
   </body>

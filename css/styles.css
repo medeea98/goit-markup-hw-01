@@ -9,8 +9,11 @@ body {
     font-family: Roboto, sans-serif;
     color:var(--main-black)
 }
- a { text-decoration: none;
-color: var(--main-black);}
+ a { 
+    text-decoration: none;
+    color: var(--main-black);
+    
+}
 
 ul { list-style-type: none;}
 
@@ -32,19 +35,20 @@ font-family: Raleway;
 .black-text {
     color:black;
 }
-.nav-bar {
-    
+.white-text {
+    color: #FFF;
 }
+
 
 .current {
     color: var(--main-blue);
 }
 .contact-info {
     color: var(--main-grey);
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 1.17;
-        letter-spacing: 0.28px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.28px;
         
 }
 
@@ -79,16 +83,16 @@ font-family: Raleway;
     color: var(--main-black);
     font-size: 14px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.17;
     letter-spacing: 0.42px;
     text-transform: uppercase;
 }
 .text {
     color: var(--main-grey);   
     font-size: 14px;
-    font-style: normal;
+
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.71;
     /* 171.429% */
     letter-spacing: 0.42px;
 }
@@ -99,8 +103,9 @@ font-family: Raleway;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
-line-height: normal;
-letter-spacing: 1.08px
+line-height: 1.17;
+letter-spacing: 1.08px;
+color: var(--main-black);
 }
 .our-team-section { 
     background-color: var(--background-wheat);
@@ -109,8 +114,9 @@ letter-spacing: 1.08px
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.08px
+    line-height: 1.17;
+    letter-spacing: 1.08px;
+    color: var(--main-black);
 }
 .member-box {
     border-radius: 0px 0px 4px 4px;
@@ -118,4 +124,93 @@ background: #FFF;
 
 /* material shadow v1 */
 box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.our-team-name {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.48px;
+    color: var(--main-black);
+}
+.our-team-position {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.48px;
+    color: var(--main-grey);
+}
+.logo-footer {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.193;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.global-footer {
+    background-color: var(--background-grey);
+}
+.address {
+    font-style: normal;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.42px;
+}
+.contact-info-footer {
+    color:#FFFFFF99;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.14;
+    /* 114.286% */
+    letter-spacing: 0.42px;
+}
+.filter-buttons { 
+        color: var(--main-black);
+        border: none;
+    
+}
+.current-button {
+    background-color: var(--main-blue);
+    color: white;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    text-align: center;
+    border: inherit;
+    
+}
+.regular-button {
+        background: var(--background-wheat);
+        font-family: inherit;
+        border: inherit;
+        color: var(--main-black);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+        text-align: center;
+}
+.project {
+
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        text-align: left;
+        color: var(--main-black);
+}
+.type {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.8;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: var(--main-grey);
 }
