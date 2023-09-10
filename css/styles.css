@@ -9,10 +9,36 @@ body {
     font-family: Roboto, sans-serif;
     color:var(--main-black)
 }
- a { 
+a { 
     text-decoration: none;
     color: var(--main-black);
     
+}
+a:hover {
+    color: var(--main-blue);
+}
+a:focus {
+    color: var(--main-blue);
+}
+a:active {
+    color: var(--main-blue);
+}
+a:visited {
+    color: var(--main-blue);
+}
+button:hover {
+    background-color: var(--main-blue);
+    color: #FFF;
+    cursor: pointer;
+}
+button:focus{
+    color: var(--main-blue);
+}
+button:active {
+    color: var(--main-blue);
+}
+button:visited {
+    color: var(--main-blue);
 }
 
 ul { list-style-type: none;}
@@ -51,7 +77,12 @@ font-family: Raleway;
     letter-spacing: 0.28px;
         
 }
-
+.contact-info:hover {
+    color: var(--main-blue);
+}
+.contact-info:focus {
+    counter-reset: var(--main-blue);
+}
 .first-section {
     background-color: var(--background-grey);
 }
@@ -74,7 +105,17 @@ font-family: Raleway;
     height: 50px;
     flex-shrink: 0;
     border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px
+    box-shadow: 0px 4px 4px 0px;
+} 
+.first-section-button:hover {
+    background-color: #188CE8;
+    color: white;
+    cursor: pointer;
+}
+.first-section-button:focus {
+    background-color: #188CE8;
+    color: white;
+    box-shadow: 0px 4px 4px 0px #00000026;
 }
 .text-section{
     background-color: white;
@@ -120,10 +161,9 @@ color: var(--main-black);
 }
 .member-box {
     border-radius: 0px 0px 4px 4px;
-background: #FFF;
-
-/* material shadow v1 */
-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    background: #FFF;
+    /* material shadow v1 */
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .our-team-name {
     text-align: center;
@@ -168,6 +208,13 @@ box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0
     line-height: 1.14;
     /* 114.286% */
     letter-spacing: 0.42px;
+}
+.contact-info-footer:hover {
+    color: var(--main-blue);
+}
+
+.contact-info-footer:focus {
+    counter-reset: var(--main-blue);
 }
 .filter-buttons { 
         color: var(--main-black);
